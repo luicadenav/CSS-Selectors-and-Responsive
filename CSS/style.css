@@ -49,16 +49,18 @@
 max-width: 1200px;
 background:url(/assets/Desktop_Backgrounds_1920x1200_6\ 3.png);
 background-repeat: no-repeat;
-background-color: red;
 margin: 0 auto;
-height: 800px;
+
 }
 
 .firstSection-content{
     display: flex;
     flex-direction: column;
     width: 50%;;
-    margin: 203 auto 200;
+    margin: 0 auto;
+    padding: 12% 0 16%;
+    min-height: 678px;
+   justify-content: center;
 }
 
 
@@ -82,6 +84,7 @@ height: 800px;
     text-align: center;
     color: white;
     font-weight: 400;
+    
 }
 
 
@@ -91,7 +94,7 @@ height: 800px;
     background-color: rgba(238, 238, 238, 1);
     max-width: 1200px;
     margin: 0 auto;
-    height: 678px;
+    padding: 20 0;
 }
 
 .secondSection h2, .thirdSection h2 {
@@ -103,6 +106,7 @@ height: 800px;
     padding-top: 5%;
     margin-bottom: 40px;
     font-family: 'Oswald', sans-serif;
+    width: 80%;
     
     
 }
@@ -124,13 +128,11 @@ height: 800px;
 }
 
 .secondSection p {
-    width: 408px;
+    width: 45%;
     color: rgba(102, 102, 102, 1);
 }
 
-.secondSection p:first-child {
-    width: 408px;
-}
+
 
 .secondSection button{
     display: block;
@@ -198,7 +200,7 @@ footer{
     max-width: 1200px;
     background-color: rgba(70, 69, 71, 1);
     margin: 0 auto;
-    height: 170px;
+
     
 }
 
@@ -225,11 +227,49 @@ footer a{
 }
 
 .footer-Rigth {
-    padding: 60px;
+    padding:  5% 0 10% 0;
 }
 
 
+@media only screen and (max-width:768px) {
+    .navbar ul {
+        display: none;
+    }
 
+    .navbar {
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .firstSection-content {
+        width: 80%;
+    }
+
+    .texts{
+        display: block;
+        text-align: left;
+    }
+
+    .secondSection p {
+        width: 100%;
+    }
+
+    .footer-content{
+        display: block;
+        text-align: center;
+    }
+
+    .footer-center{
+        margin-top: 5%;
+    } 
+}
+
+
+@media only screen and (min-width:768px) {
+    .lines {
+        display: none;
+    }
+}
 
 
 
