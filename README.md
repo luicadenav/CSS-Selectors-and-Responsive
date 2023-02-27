@@ -1,4 +1,4 @@
-# HTML-Essentials-HomeTask
+CSS-Selectors-and-Responsive
 Epam training course
 
 
